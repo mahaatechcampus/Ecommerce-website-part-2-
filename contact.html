@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <title>Contact Us</title>
+      <link rel="icon" type="image/x-icon" href="maha store logo.png" />
+      <!-- Bootstrap icons-->
+      <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+      <link href="css/style1.css" rel="stylesheet" />
+      <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+      <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Maha Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">All Products</a></li>
+                        <li>
+                           <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                        <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                     </ul>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  </li>
+               </ul>
+               <form class="d-flex">
+                  <button class="btn btn-outline-dark" type="submit">
+                  <i class="bi-cart-fill me-1"></i>
+                  Cart
+                  <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                  </button>                            
+                  <button class="btn btn-outline-dark m-3rem" type="submit">
+                  <i class="bi bi-person-fill me-1"></i> Login
+                  <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                  </button>
+                  </ul>
+               </form>
+            </div>
+         </div>
+         <!-- <login -->
+      </nav>
+      <!-- Page content-->
+      <section class="py-5">
+         <div class="container px-5">
+            <!-- Contact form-->
+            <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+               <div class="text-center mb-5">
+                  <div class="
+                     text-white mb-2"> <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+                     ><i class="bi bi-envelope-fill"></i
+                     ></a></div>
+                  <h1 class="fw-bolder">Get in touch</h1>
+                  <p class="lead fw-normal text-muted text-center mb-0">We'd love to hear from you</p>
+               </div>
+               <div class="row gx-5 justify-content-center">
+                  <div class="col-lg-8 col-xl-6">
+              
+                     <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                           <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                           <label for="name">Full name</label>
+                           <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                           <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                           <label for="email">Email address</label>
+                           <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                           <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                           <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                           <label for="phone">Phone number</label>
+                           <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                           <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                           <label for="message">Message</label>
+                           <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                           <div class="text-center mb-3">
+                              <div class="fw-bolder">successful!</div>
+                             
+                              <br />
+                           </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                           <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-success btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </main>
+      <!-- Footer-->
+      <footer class="bg-dark text-center text-white">
+         <!-- Grid container -->
+         <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+               <!-- Facebook -->
+               <a class="btn btn-light btn-floating m-1" href="#!" role="button">
+               <i class="bi bi-facebook"></i>
+               </a>
+               <!-- Twitter -->
+               <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-twitter"></i
+                  ></a>
+               <!-- Google -->
+               <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-google"></i
+                  ></a>
+               <!-- Instagram -->
+               <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-instagram"></i
+                  ></a>
+            </section>
+            <!-- Section: Social media -->
+         </div>
+         <!-- Grid container -->
+         <!-- Copyright -->
+         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+         © 2021 Copyright:
+         <a class="text-white" href="https://mdbootstrap.com/"> MahaStore.com
+         <!-- Copyright -->
+      </footer>
+      <!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/scripts.js"></script>
+      
+   </body>
+</html>

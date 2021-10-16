@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Maha Store</title>
+      <!-- Favicon-->
+      <link rel="icon" type="image/x-icon" href="maha store logo.png" />
+      <!-- Bootstrap icons-->
+      <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+      <link href="css/style1.css" rel="stylesheet" />
+      <script src="JS/script.js"></script>
+   </head>
+   <body onload="displayCart()">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Maha Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">All Products</a></li>
+                        <li>
+                           <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                        <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                     </ul>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  </li>
+               </ul>
+               <form class="d-flex">
+                  <button class="btn btn-outline-dark cart" type="submit">
+                  <i class="bi-cart-fill me-1"></i>
+                  Cart
+                  <span class="badge bg-dark text-white ms-1 rounded-pill" id="cart">0</span>
+                  </button>                            
+                  <button class="btn btn-outline-dark m-3rem" type="submit">
+                  <i class="bi bi-person-fill me-1"></i> Login
+                  <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                  </button>
+                  </ul>
+               </form>
+            </div>
+         </div>
+         <!-- <login --> 
+         </nav>
+  <h1 style="text-align: center;">Shopping Cart</h1>
+                                           <div class="d-grid gap-2 col-3 mx-auto">
+                                            <button type="button" class="btn btn-outline-danger" value="Clear" onclick="clearCart()"> Clear Your Cart</button>  
+                                            
+                                           </div>
+                                    <div class="table-responsive"  id="items_table">
+                                        
+                                        <table class="table table-striped table-hover table align-middle table mx-2 my-2" id='container'>
+                    </table><br> </div>
+                            
+                    
+                    
+ <!-- Footer-->
+ <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+       <!-- Section: Social media -->
+       <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-facebook"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+             ><i class="bi bi-twitter"></i
+             ></a>
+          <!-- Google -->
+          <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+             ><i class="bi bi-google"></i
+             ></a>
+          <!-- Instagram -->
+          <a class="btn btn-light btn-floating m-1" href="#!" role="button"
+             ><i class="bi bi-instagram"></i
+             ></a>
+       </section>
+       <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"> MahaStore.com
+    <!-- Copyright -->
+ </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
